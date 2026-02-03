@@ -1,0 +1,11 @@
+[INFO] 08:00:01 - Initializing Simulation Environment...
+[INFO] 08:00:05 - Loading RTL Netlist: design_v1.v
+[WARNING] 08:00:10 - Clock jitter detected on global_clk (0.05ns)
+[INFO] 08:00:15 - Beginning test sequence: TEST_01_POWER_UP
+[ERROR] 08:00:22 - Voltage droop detected in Block_A: 0.85V (Threshold: 0.9V)
+[INFO] 08:01:05 - Beginning test sequence: TEST_02_DATA_TRANSFER
+[ERROR] 08:01:12 - Parity bit mismatch at Address 0x4F2
+[INFO] 08:05:00 - Simulation stopped. Total execution time: 300s.
+[CRITICAL] 08:02:00 - Main Power Supply Failure
+[INFO] 08:02:05 - Switching to Backup Battery
+[CRITICAL] 08:03:10 - Emergency Stop Triggered by Sensor_04
